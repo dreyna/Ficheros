@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:showIn="@layout/activity_main"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:text="App Ficheros"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:textSize="24dp"
+        android:textAlignment="center"
+        android:textColor="#0f8ad7"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Leer Memoria interna"
+        android:id="@+id/leermeminterna"
+        android:layout_marginTop="20dp"
+        android:background="#8dccf4"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Escribir Memoria interna"
+        android:id="@+id/escribirmeminterna"
+        android:layout_marginTop="20dp"
+        android:background="#8dccf4" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Leer SD"
+        android:id="@+id/leersd"
+        android:layout_marginTop="20dp"
+        android:background="#8dccf4"  />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Escribir SD"
+        android:id="@+id/escribirsd"
+        android:layout_marginTop="20dp"
+        android:background="#8dccf4"  />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Leer Programa"
+        android:id="@+id/leerprograma"
+        android:layout_marginTop="20dp"
+        android:background="#8dccf4" />
+</LinearLayout>
